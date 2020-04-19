@@ -1,0 +1,42 @@
+.displyBlock{
+    display: block;
+    margin: 0 auto 20px;
+}
+.CoulmnsBar{
+    border: 2px solid black;
+    padding: 0px 10px;
+    margin: 10px;
+    height: 100%;
+    min-width: 10%;
+    float: left;
+}
+.chartSection{
+    float: right;
+    width: 82%;
+}
+.pointer{
+    cursor: pointer;
+    font-size: 12px;
+
+}
+.pointer:hover{
+    color: orange;
+}
+.textArea{
+    height: 15px;
+    border: 1px solid black;
+    max-width: 20%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 5px 3px;
+}
+.inputContainer{
+    position: relative;
+  }
+.clearBtn{
+    position: absolute;
+    top: 50%;
+    border: 2px solid orange;
+    background: transparent;
+    cursor: pointer;
+  }
